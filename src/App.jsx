@@ -1,6 +1,13 @@
+import HelloWorld from "./components/HelloWorld.jsx";
+
 function App() {
 
-    return <h1>Hello World</h1>
+    return (
+        <>
+            <HelloWorld/>
+            <h1>Hello World!</h1>
+        </>
+    )
 }
 
-    export default App;
+export default App;
