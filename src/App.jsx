@@ -9,7 +9,7 @@ function App() {
         <>
             <HelloWorld/>
             <main className="container">
-                <HelloMyFriend/>
+                <HelloMyFriend Antes= "Hello World!" Ahora="Hello my Friend!"/>
             </main>
             <Footer/>
         </>
